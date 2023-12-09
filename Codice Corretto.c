@@ -13,13 +13,13 @@ int main ()
 	scanf("%c", &scelta);
 	switch (scelta)
 	{
-		case 'A':
+        case 'A':
             moltiplica();
             break;
-		case 'B':
+        case 'B':
             dividi();
             break;
-		case 'C':
+        case 'C':
             ins_string();
             break;
         default :
@@ -78,7 +78,7 @@ void dividi ()
 
 void ins_string ()
 {
-	char stringa[20];
+    char stringa[20];
     printf ("Inserisci la stringa:");
     scanf("%19s", stringa);
     printf("La stringa da te inserita e': ");
