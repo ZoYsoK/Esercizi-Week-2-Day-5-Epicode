@@ -14,14 +14,14 @@ int main ()
 	switch (scelta)
 	{
 		case 'A':
-                moltiplica();
-                break;
+            moltiplica();
+            break;
 		case 'B':
-                dividi();
-                break;
+            dividi();
+            break;
 		case 'C':
-                ins_string();
-                break;
+            ins_string();
+            break;
         default :
             printf("Non hai inserito una scelta disponibile.");
 
@@ -62,7 +62,7 @@ void dividi ()
     scanf ("%d", &b);
     if (b==0)
     {
-      printf ("La divisione e' impossibile.");
+    	printf ("La divisione e' impossibile.");
 
     }
     else
